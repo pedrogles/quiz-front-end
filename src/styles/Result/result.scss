@@ -17,6 +17,19 @@
     #result {
         .result-final {
             h3 {
+                color: #F1F1F1;
+                font-size: 1rem;
+                font-weight: 400;
+                text-decoration: underline;
+            }
+        }
+    }
+}
+@media (min-width: 481px) and (max-width: 768px) {
+    #result {
+        .result-final {
+            h3 {
+                color: #F1F1F1;
                 font-size: 1rem;
                 font-weight: 400;
                 text-decoration: underline;

@@ -51,11 +51,13 @@ function App() {
       const items = document.querySelector(".question-three .alternatives");
       const questionThree = document.querySelector(".question-three");
       const result = document.querySelector(".result");
+      const answeredQuestions = document.querySelector(".answers");
       items.addEventListener('click', event => {
           setAnswer([...answers, `#3 - ${event.target.innerText}`]);
           if(event.target.innerText === "D) HTML, CSS e JavaScript.") {
           setNote(note + 1);
           }
+          answeredQuestions.style.position = "static"
           questionThree.style.display = "none";
           result.style.display = "flex";
       });

@@ -22,3 +22,25 @@
         display: none;
     }
 }
+@media (max-width: 480px) {
+    #app {
+    background-color: #312559;
+    .question-two {
+        margin-top: 0;
+    }
+    .question-three {
+        margin-top: 0;
+    }
+    }
+}
+@media (min-width: 481px) and (max-width: 768px) {
+    #app {
+    background-color: #312559;
+    .question-two {
+        margin-top: 0;
+    }
+    .question-three {
+        margin-top: 0;
+    }
+    }
+}
