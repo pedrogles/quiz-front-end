@@ -2,7 +2,7 @@ import { useState } from "react";
 import { questionOne, questionTwo, questionThree } from "./utils/questions";
 
 import Answers from "./components/Answers/Answers";
-import Initiation from "./components/initiation/Initiation";
+import Initiation from "./components/Initiation/Initiation";
 import Result from "./components/Result/Result";
 import QuestionsTemplate from "./components/QuestionsTemplate/QuestionsTemplate";
 
