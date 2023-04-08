@@ -1,0 +1,98 @@
+#question-template {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #312559;
+    width: 41.625rem;
+    height: 43.75rem;
+    border: none;
+    border-radius: 10px;
+    .title {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 3.125rem;
+        .h1 {
+            font-size: 2.5rem;
+            font-weight: 400;
+            color: #F1F1F1;
+        }
+        .h2 {
+            font-size: 1.5rem;
+            font-weight: 200;
+            color: #F1F1F1;
+        }
+    }
+    .question {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        background-color: #00000035;
+        width: 32.875rem;
+        height: 9.875rem;
+        border: none;
+        border-radius: 10px;
+        margin: 3rem 0 1rem 0;
+        h3 {
+            font-size: 1.75rem;
+            font-weight: 400;
+            color: #F1F1F1;
+        }
+    }
+    ul li {
+        list-style: none;
+    }
+}
+@media (max-width: 480px) {
+    #question-template {
+        width: 17rem;
+        height: 18.75rem;
+        border-radius: 10px;
+        .title {
+            margin-top: 2rem;
+            .h1 {
+                font-size: 1.25rem;
+            }
+            .h2 {
+                font-size: 0.625rem;
+            }
+        }
+        .question {
+            width: 10.375rem;
+            height: 3.125rem;
+            border-radius: 2px;
+            margin: 1rem 0 0.5rem 0;
+            h3 {
+                font-size: 0.563rem;
+            }
+        }
+    }
+}
+@media (min-width: 481px) and (max-width: 768px) {
+    #question-template {
+        width: 23rem;
+        height: 25rem;
+        border-radius: 10px;
+        .title {
+            margin-top: 2rem;
+            .h1 {
+                font-size: 2rem;
+            }
+            .h2 {
+                font-size: 1rem;
+            }
+        }
+        .question {
+            width: 16rem;
+            height: 5rem;
+            border-radius: 2px;
+            margin: 1rem 0 0.5rem 0;
+            h3 {
+                font-size: 0.8rem;
+                margin: 0.5rem;
+            }
+        }
+    }
+}

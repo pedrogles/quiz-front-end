@@ -1,0 +1,24 @@
+#app {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .question-one {
+        display: none;
+    }
+    .question-two {
+        display: none;
+        margin-top: 2rem;
+    }
+    .question-three {
+        display: none;
+        margin-top: 2rem;
+    }
+    .answers {
+        display: none;
+    }
+    .result {
+        display: none;
+    }
+}

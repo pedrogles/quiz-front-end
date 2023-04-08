@@ -1,0 +1,151 @@
+#initiation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 41.625rem;
+    height: 43.75rem;
+    background-color: #312559;
+    border-radius: 10px;
+    border: none;
+    -webkit-box-shadow: 9px 11px 55px -15px rgba(0,0,0,0.5);
+    -moz-box-shadow: 9px 11px 55px -15px rgba(0,0,0,0.5);
+    box-shadow: 9px 11px 55px -15px rgba(0,0,0,0.5);
+    .title {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 6rem;
+        .h1 {
+            font-size: 3.25rem;
+            font-weight: 400;
+            color: #F1F1F1;
+        }
+        .h2 {
+            font-size: 2rem;
+            font-weight: 200;
+            color: #F1F1F1;
+        }
+    }
+    .welcome {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 7.5rem 0 2.188rem 0;
+        .h3 {
+            font-size: 2.25rem;
+            font-weight: 400;
+            color: #F1F1F1;
+            border-bottom: solid 0.1rem #f1f1f1;
+        }
+        .p {
+            font-size: 1.2rem;
+            font-weight: 200;
+            color: #F1F1F1;
+            margin-top: 0.5rem;
+        }
+    }
+}
+@media (max-width: 480px) {
+    #initiation {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 17rem;
+        height: 18.75rem;
+        background-color: #312559;
+        border-radius: 10px;
+        border: none;
+        -webkit-box-shadow: 9px 11px 55px -15px rgba(0,0,0,0.5);
+        -moz-box-shadow: 9px 11px 55px -15px rgba(0,0,0,0.5);
+        box-shadow: 9px 11px 55px -15px rgba(0,0,0,0.5);
+        .title {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin-top: 2.5rem;
+            .h1 {
+                font-size: 1.25rem;
+                font-weight: 400;
+                color: #F1F1F1;
+            }
+            .h2 {
+                font-size: 0.625rem;
+                font-weight: 200;
+                color: #F1F1F1;
+            }
+        }
+        .welcome {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin: 3.5rem 0 1rem 0;
+            .h3 {
+                font-size: 1rem;
+                font-weight: 400;
+                color: #F1F1F1;
+                border-bottom: solid 0.1rem #f1f1f1;
+            }
+            .p {
+                font-size: 0.5rem;
+                font-weight: 200;
+                color: #F1F1F1;
+                margin-top: 0.5rem;
+            }
+        }
+    }
+}
+@media (min-width: 481px) and (max-width: 768px) {
+    #initiation {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 23rem;
+        height: 25rem;
+        background-color: #312559;
+        border-radius: 10px;
+        border: none;
+        -webkit-box-shadow: 9px 11px 55px -15px rgba(0,0,0,0.5);
+        -moz-box-shadow: 9px 11px 55px -15px rgba(0,0,0,0.5);
+        box-shadow: 9px 11px 55px -15px rgba(0,0,0,0.5);
+        .title {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin-top: 3rem;
+            .h1 {
+                font-size: 2rem;
+                font-weight: 400;
+                color: #F1F1F1;
+            }
+            .h2 {
+                font-size: 1rem;
+                font-weight: 200;
+                color: #F1F1F1;
+            }
+        }
+        .welcome {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin: 4rem 0 1rem 0;
+            .h3 {
+                font-size: 1.4rem;
+                font-weight: 400;
+                color: #F1F1F1;
+                border-bottom: solid 0.1rem #f1f1f1;
+            }
+            .p {
+                font-size: 0.8rem;
+                font-weight: 200;
+                color: #F1F1F1;
+                margin-top: 0.5rem;
+            }
+        }
+    }
+}
