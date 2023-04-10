@@ -87,10 +87,10 @@ function App() {
     answeredQuestions.style.display = "none";
     initiation.style.display = "flex";
     resultComponent.style.display = "none";
-    location.reload()
     setAnswer([]);
     setNote(0);
     setResult("");
+    location.reload();
   }
   return (
     <div id="app">
